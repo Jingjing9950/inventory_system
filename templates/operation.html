@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Operation Menu</h1>
+    <form action="/new-shop" target="_blank" method = "POST" style="margin: 25px">
+      <p>* Add new shop</p>
+      <input type="text" placeholder="shop name" name="shop_name">
+      <input type="submit" value="ADD">
+    </form>
+
+    <form action="/get-shop" target="_blank" style="margin: 25px">
+      <p>* Get shop name by shop id</p>
+      <input type="text" placeholder="shop id" name="shop_id">
+      <input type="submit" value="GET">
+    </form>
+
+    <form action="/new-item" target="_blank" method = "POST" style="margin: 25px">
+      <p>* Add new item</p>
+      <input type="text" placeholder="item name" name="item_name">
+      <input type="submit" value="ADD">
+    </form>
+
+    <form action="/get-item" target="_blank" style="margin: 25px">
+      <p>* Get item name by item id</p>
+      <input type="text" placeholder="item id" name="item_id">
+      <input type="submit" value="GET">
+    </form>
+
+    <form action="/purchase" target="_blank" style="margin: 25px">
+      <p>* Add quantity of inventory by shop id and item id</p>
+      <input type="text" placeholder="shop id" name="shop_id">
+      <input type="text" placeholder="item id" name="item_id">
+      <input type="text" placeholder="volume" name="volume">
+      <input type="submit" value="ADD">
+    </form>
+
+    <form action="/find-inventory" target="_blank" style="margin: 25px">
+      <p>* Find inventory of item by shop id and item id</p>
+      <input type="text" placeholder="shop id" name="shop_id">
+      <input type="text" placeholder="item id" name="item_id">
+      <input type="submit" value="GET">
+    </form>
+
+    <form action="/find-inventory-item" target="_blank" style="margin: 25px">
+      <p>* Get total inventory of item by item id</p>
+      <input type="text" placeholder="item id" name="item_id">
+      <input type="submit" value="GET">
+    </form>
+
+    <form action="/find-null-item" target="_blank" style="margin: 25px">
+      <p>* Get the list of zero or null item in some shop by shop id</p>
+      <input type="text" placeholder="shop id" name="shop_id">
+      <input type="submit" value="GET">
+    </form>
+
+    <form action="/find-max-item-shop" target="_blank" style="margin: 25px">
+      <p>* Find the item with maximun quantity in each shop</p>
+      <input type="submit" value="Find All">
+    </form>
+
+
+</body>
+</html>
