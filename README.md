@@ -1,4 +1,4 @@
-# inventory_system
+# Inventory System
 
 **If you you have the python and flask environment setup in you pc**
 1. Open **inventory_system_flask.py** file and run it to start flask server.
