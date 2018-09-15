@@ -1,7 +1,7 @@
 # Inventory System
 
 ## Over view
-This system is written in Python, pandas, flask
+To run this system, python pandas should be installed
 
 ## How to Run in local
 * If you you have the python and flask environment setup in you pc
