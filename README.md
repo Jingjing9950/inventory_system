@@ -9,7 +9,7 @@ To run this system, python pandas should be installed
   1. After the server is started, access the local host. eg. http://127.0.0.1:5000/
   1. Try each operation on the web page opened.
 
-* If you don't have the flask installed**
+* If you don't have the flask installed
   Open **funcs.py** file and call each functions to run the hard code.
 
 ## Others
