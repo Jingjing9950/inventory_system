@@ -1,7 +1,7 @@
 # inventory_system
 
 **If you you have the python and flask environment setup in you pc**
-1. Open **inventory_system_flask.py** file and run it to start to flask server.
+1. Open **inventory_system_flask.py** file and run it to start flask server.
 2. After the server is started, access the local host. eg. http://127.0.0.1:5000/
 3. Try each operation on the web page opened.
 
